@@ -6,9 +6,17 @@ html, body {
     padding: 0;
 }
 
+.carousel-item.active {
+    z-index: 3;
+}
+
+.responsive-proportional {
+    object-fit: contain;
+}
+
 .carousel-container {
     position: relative;
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     margin: 50px auto;
     padding: 20px 0;
@@ -28,10 +36,6 @@ html, body {
     z-index: 1;
 }
 
-.carousel-item.active {
-    z-index: 3;
-}
-
 .carousel-item img {
     width: 100%;
     aspect-ratio: 1/1;
@@ -43,14 +47,10 @@ html, body {
     transform-origin: center center;
 }
 
-.responsive-proportional {
-    object-fit: contain;
-}
-
 .controls-container {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 1%;
     margin-top: 30px;
     position: relative;
     z-index: 2;
