@@ -51,7 +51,7 @@ html, body {
     display: flex;
     justify-content: center;
     gap: 1%;
-    margin-top: 30px;
+    margin-top: 2%;
     position: relative;
     z-index: 2;
 }
@@ -62,10 +62,10 @@ html, body {
     border: none;
     padding: 15px 20px;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 140%;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 5%;
+    aspect-ratio: 1/1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,7 +92,7 @@ html, body {
     color: white;
     padding: 30px;
     border-radius: 15px;
-    max-width: 600px;
+    max-width: 50%;
     width: 90%;
     display: none;
     z-index: 1000;
@@ -111,6 +111,6 @@ html, body {
     background: none;
     border: none;
     color: white;
-    font-size: 24px;
+    font-size: 140%;
     cursor: pointer;
 }
